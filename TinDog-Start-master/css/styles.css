@@ -1,0 +1,209 @@
+ #title {
+   background-color: #ff4c68;
+   /* position: absolute; */
+   /* z-index: -2; */
+ }
+
+ body {
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 4rem;
+   line-height: 1.5;
+   color: white;
+ }
+
+ h2 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.5rem;
+   line-height: 1.5;
+ }
+
+ .containers-fluid {
+   padding: 3% 15% 14%;
+ }
+
+ .navbar {
+   padding: 0 0 4.5rem;
+ }
+
+ .navbar-brand {
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: bold;
+   font-size: 2.5rem;
+ }
+
+ .nav-item {
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 1.5rem;
+   padding: 0 18px;
+ }
+
+ .download-button {
+   margin: 5% 3% 5% 0;
+ }
+
+ .title-img {
+   width: 65%;
+   transform: rotate(25deg);
+   position: absolute;
+ }
+
+ #features {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.5rem;
+   text-align: center;
+   padding: 5% 5% 5% 0;
+   line-height: 1.5;
+   background-color: #fff;
+   position: relative;
+ }
+
+ .features-para {
+   font-family: 'Ubuntu', sans-serif;
+   color: #8f8f8f;
+   font-size: 1.4rem;
+ }
+
+ .icon {
+   padding-bottom: 5%;
+   color: #ef8172;
+ }
+
+ .icon:hover {
+   color: #ff4c68;
+ }
+
+ /* testimonials */
+ #testimonials {
+   background-color: #ff4c68;
+   text-align: center;
+   color: white;
+ }
+
+ .carousel-item {
+   padding: 7% 5% 3% 0;
+ }
+
+ .testimonials-img {
+   border-radius: 100%;
+   width: 10%;
+   margin: 20px;
+ }
+
+ #press {
+   background-color: #ff4c68;
+   text-align: center;
+   padding-bottom: 3%;
+ }
+
+ .press-img {
+   width: 15%;
+   margin: 10px 20px 50px;
+ }
+
+ /* pricing */
+ #pricing {
+   /* padding: 5% 2% 5% 2%; */
+   padding: 100px;
+   text-align: center;
+ }
+
+ .pricing-heading:hover {
+   color: #ff4c68;
+ }
+
+ .column-pricing {
+   padding: 3% 2%;
+ }
+
+ .para-pricing {
+   font-family: 'Ubuntu', sans-serif;
+   color: #8f8f8f;
+   font-size: 1.2rem;
+ }
+
+ .heading-pricing {
+   font-size: 3rem;
+ }
+
+ .btn-pricing {
+   background-color: #fff;
+   border: 1px solid #000;
+   color: #000;
+ }
+
+ .btn-pricing:hover {
+   background-color: #ff4c68;
+ }
+
+ /* Call to Action */
+ #cta {
+   background-color: #ff4c68;
+   padding: 4% 30%;
+   text-align: center;
+ }
+
+ .cta-heading {
+   font-size: 3rem;
+   color: #fff;
+ }
+
+ /* Footer */
+ #footer {
+   background-color: #fff;
+   padding: 8% 5% 2%;
+   text-align: center;
+   color: #8f8f8f;
+   font-family: 'Ubuntu', sans-serif;
+ }
+
+ .fa-facebook-official {
+   padding: 0 10px 20px 0px;
+   font-size: 25px;
+   margin-left: 20px;
+ }
+
+ .fa-facebook-official:hover {
+   color: #3b5998;
+ }
+
+ .fa-twitter {
+   padding: 0 10px 20px 0px;
+   font-size: 25px;
+ }
+
+ .fa-twitter:hover {
+   color: #00acee;
+ }
+
+ .fa-instagram {
+   padding: 0 10px 20px 0px;
+   font-size: 25px;
+ }
+
+ .fa-instagram:hover {
+   color: #C13584;
+ }
+
+ .fa-envelope {
+   padding: 0 10px 20px 0px;
+   font-size: 25px;
+ }
+
+ .fa-envelope:hover {
+   color: #3f729b;
+ }
+
+ @media (max-width:1200px) {
+   #title {
+     text-align: center;
+   }
+
+   .title-img {
+     position: static;
+     transform: rotate(0);
+   }
+ }
